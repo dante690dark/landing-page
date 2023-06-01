@@ -1,3 +1,59 @@
-h1 {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background: #1f2937;
+}
+.section2 {
+  background: white;
+}
+.section3 {
+  background: #e5e7eb;
+}
+.section4 {
+  background: white;
+}
+
+.card {
+  margin: 80px 150px;
+  padding: 50px 120px;
+  background: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card p:first-child {
+  font-size: 25px;
+  font-weight: 800;
+  color: white;
+}
+
+.card p:nth-child(2) {
+  color: #ccc;
+  font-size: 16px;
+}
+
+button {
+  padding: 6px 30px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 16px;
+}
+footer {
+  background: #1f2937;
+  text-align: center;
+  line-height: 60px;
+  color: white;
 }
